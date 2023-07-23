@@ -1,7 +1,8 @@
 import WorkoutCards from "@/components/workoutCards";
-import MainNav from "../components/main-nav";
+import TopNav from "../components/TopNav";
 import { Workout } from "@/utils/workout";
 import HomeSection from "@/components/HomeSection";
+import ProgressSection from "@/components/ProgressSection";
 
 const workouts: Workout[] = [
   {
@@ -33,7 +34,7 @@ const workouts: Workout[] = [
 export default function Home() {
   return (
     <>
-      <MainNav />
+      <TopNav />
       <HomeSection />
     </>
   );
