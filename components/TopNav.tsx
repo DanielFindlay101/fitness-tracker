@@ -14,7 +14,7 @@ import {
 export default function MainNav() {
   return (
     <>
-      <div className="bg-black flex justify-evenly p-4">
+      <div className="bg-black flex fixed w-full justify-evenly p-4">
         <h1 className="text-white text-left">My Fitness Tracker</h1>
       </div>
     </>

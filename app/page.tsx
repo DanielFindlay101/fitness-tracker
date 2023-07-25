@@ -3,6 +3,7 @@ import TopNav from "../components/TopNav";
 import { Workout } from "@/utils/workout";
 import HomeSection from "@/components/HomeSection";
 import ProgressSection from "@/components/ProgressSection";
+import BottomNav from "@/components/BottomNav";
 
 const workouts: Workout[] = [
   {
@@ -36,6 +37,7 @@ export default function Home() {
     <>
       <TopNav />
       <HomeSection />
+      <BottomNav />
     </>
   );
 }
