@@ -1,6 +1,6 @@
 export interface Workout {
   title: string;
-  reps: number;
-  sets: number;
-  pb: boolean;
+  weight: string;
+  reps: string;
+  sets: string;
 }

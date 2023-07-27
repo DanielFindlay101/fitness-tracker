@@ -42,7 +42,7 @@ function Calendar({
           "h-9 w-9 p-0 font-normal aria-selected:opacity-100"
         ),
         day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-white focus:text-slate-800",
+          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-black focus:text-white",
         day_today: "bg-accent text-accent-foreground",
         day_outside: "text-slate-200 opacity-50",
         day_disabled: "text-muted-foreground opacity-50",
