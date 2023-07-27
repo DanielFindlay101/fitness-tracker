@@ -13,7 +13,7 @@ export default function HomeCards() {
           </div>
         </Link>
         <div className="bg-lime-400 relative w-[160px] rounded-3xl h-[100px] p-3">
-          <h1>Create a workout</h1>
+          <h1>View a workout</h1>
           <ArrowRightIcon className="w-5 absolute right-[10px] bottom-[20px]" />
         </div>
       </div>
