@@ -3,9 +3,11 @@ import MyCalender from "@/components/MyCalender";
 import WorkoutModal from "@/components/WorkoutModal";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { useStore } from "../store";
 
 export default function page() {
-  const [workoutModal, setWorkoutModal] = useState(false);
+  const workoutModal = useStore((state) => state.workoutModal);
+  const setWorkoutModal = useStore((state) => state.setWorkoutModal);
 
   return (
     <>
@@ -22,7 +24,7 @@ export default function page() {
             </Button>
           </div>
         </div>
-        {workoutModal && <WorkoutModal setWorkoutModal={setWorkoutModal} />}
+        {workoutModal && <WorkoutModal />}
       </section>
     </>
   );

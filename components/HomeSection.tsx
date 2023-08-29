@@ -5,7 +5,7 @@ import ProgressSection from "./ProgressSection";
 
 export default function HomeSection() {
   return (
-    <div className=" h-screen bg-black pt-[65px]">
+    <div className="h-screen bg-black pt-[65px]">
       <HomeCards />
       <ProgressSection />
     </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProgressSection() {
   return (
     <div className="bg-black h-screen px-3">

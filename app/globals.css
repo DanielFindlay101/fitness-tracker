@@ -80,3 +80,7 @@
 section {
   @apply bg-black h-screen p-4 flex flex-col gap-[50px];
 }
+
+.nav-link {
+  @apply w-7 h-7 text-white;
+}
